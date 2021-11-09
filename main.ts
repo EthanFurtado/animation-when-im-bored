@@ -6,6 +6,8 @@ namespace SpriteKind {
     export const Bat = SpriteKind.create()
     export const mountain = SpriteKind.create()
     export const metaor = SpriteKind.create()
+    export const metaor2 = SpriteKind.create()
+
 }
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Bat, function (sprite, otherSprite) {
     sprite.x += -1 * sprite.vx
