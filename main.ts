@@ -7,7 +7,6 @@ namespace SpriteKind {
     export const mountain = SpriteKind.create()
     export const metaor = SpriteKind.create()
     export const metaor2 = SpriteKind.create()
-
 }
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Bat, function (sprite, otherSprite) {
     sprite.x += -1 * sprite.vx
@@ -3595,7 +3594,7 @@ let cloud1 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Cloud)
 cloud1.x = randint(11, 54)
-cloud1.y = randint(43, 86)
+cloud1.y = randint(11, 55)
 let cloud2 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
@@ -3615,7 +3614,7 @@ let cloud2 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Cloud)
 cloud2.x = randint(50, 80)
-cloud2.y = randint(60, 70)
+cloud2.y = randint(15, 50)
 let cloud3 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
@@ -3635,7 +3634,7 @@ let cloud3 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Cloud)
 cloud3.x = randint(55, 110)
-cloud3.y = randint(50, 97)
+cloud3.y = randint(11, 80)
 let landing = sprites.create(img`
     ................................
     .......7777777777777777777f.....
